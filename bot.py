@@ -30,7 +30,7 @@ def bidkaro():
             file.close()
             print('Commented on', title)
             print('Waiting for the next post.....')
-    Timer(2, bidkaro).start()
+    Timer(10, bidkaro).start()
     #bidkaro()
 
 
